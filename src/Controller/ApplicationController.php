@@ -150,7 +150,7 @@ class ApplicationController extends AppController
         }
         $daily = [];
         $state = null;
-        if ($this->request->is('post')) {
+        if ($this->request->getData('states')) {
             $responseDaily = $http->get("https://api.covidtracking.com/v2/states/{$this->request->getData('states')}/daily.json");
             $daily = $responseDaily->getJson()['data'];
             $collection = new Collection($arrayStates);

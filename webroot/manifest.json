@@ -1,8 +1,8 @@
 {
-    "name": "Pegatron",
-    "short_name": "Pegatron",
-    "theme_color": "#165b68",
-    "background_color": "#165b68",
+    "name": "Covrisk",
+    "short_name": "Covrisk",
+    "theme_color": "#623AA2",
+    "background_color": "#623AA2",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
