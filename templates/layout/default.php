@@ -136,9 +136,13 @@
                                 <?= $this->Form->end() ?>
                             </div>
                         </div>
-
                     </div>
                     <?= $this->fetch('content') ?>
+                    <div class="card">
+                        <div class="card-body">
+                        <iframe src="https://worldview.earthdata.nasa.gov/?em=true" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="100%" allow="fullscreen; autoplay;" loading="lazy"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
