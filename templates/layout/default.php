@@ -39,6 +39,14 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="green">
     <meta name="apple-mobile-web-app-title" content="COVRISK">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="96x96">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="128x128">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="384x384">
+    <link rel="apple-touch-icon" href="https://app.ryudev.net/assets/images/512x512.png" sizes="512x512">
 
     <!--  Rating css-->
     <link rel="stylesheet" href="/assets/plugins/rating/css/ratings.css">
@@ -122,7 +130,8 @@
                                     'options' => $statesLists,
                                     'id' => 'states',
                                     'label' => false,
-                                    'empty' => 'Select your state'
+                                    'empty' => 'Select your state',
+                                    'class' => 'form-control mb-0'
                                 ]) ?>
                                 <?= $this->Form->end() ?>
                             </div>
