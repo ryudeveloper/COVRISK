@@ -1,0 +1,16 @@
+{
+    "name": "Pegatron",
+    "short_name": "Pegatron",
+    "theme_color": "#165b68",
+    "background_color": "#165b68",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [{
+        "src": "/assets/images/512px.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }],
+    "splash_pages": null
+}
