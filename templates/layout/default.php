@@ -145,10 +145,8 @@
                             ?>
                                 <iframe src="https://worldview.earthdata.nasa.gov/?v=<?= $geoState->longitude ?>,<?= $geoState->latitude ?>&l=Coastlines_15m,MODIS_Terra_CorrectedReflectance_TrueColor&lg=true&s=<?= $geoState->longitude ?>,<?= $geoState->latitude ?>" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="400px" allow="fullscreen; autoplay;" loading="lazy"></iframe>
                             <?php
-                            } else {
+                            }
                             ?>
-                                <iframe src="https://worldview.earthdata.nasa.gov/?em=true" role="application" sandbox="allow-modals allow-scripts allow-same-origin allow-forms allow-popups" width="100%" height="400px" allow="fullscreen; autoplay;" loading="lazy"></iframe>
-                            <?php } ?>
                         </div>
                     </div>
                 </div>
